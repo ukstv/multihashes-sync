@@ -1,6 +1,6 @@
 {
   "name": "multihashes-sync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sync SHA256, SHA512 multihashes",
   "keywords": [
     "multiformats",
@@ -21,7 +21,8 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
