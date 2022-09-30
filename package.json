@@ -1,7 +1,7 @@
 {
   "name": "multihashes-sync",
-  "version": "0.0.3",
-  "description": "Sync SHA256, SHA512 multihashes",
+  "version": "0.0.4",
+  "description": "Synchronous SHA256, SHA512 multihashes",
   "keywords": [
     "multiformats",
     "multihashes",
@@ -21,16 +21,15 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
   "exports": {
-    ".": {
+    "./sha2": {
       "browser": {
-        "default": "./dist/index.browser.js",
-        "types": "./dist/index.d.ts"
+        "default": "./dist/sha2.browser.js",
+        "types": "./dist/sha2.browser.d.ts"
       },
       "import": {
-        "default": "./dist/index.js",
-        "types": "./dist/index.d.ts"
+        "default": "./dist/sha2.js",
+        "types": "./dist/sha2.d.ts"
       }
     }
   },
