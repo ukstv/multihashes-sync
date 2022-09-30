@@ -14,7 +14,7 @@ Compatible with [multiformats](https://github.com/multiformats/js-multiformats).
 ## Usage
 
 ```ts
-import { sha256, sha512 } from 'multihashes-sync'
+import { sha256, sha512 } from 'multihashes-sync/sha2'
 var bytes = Uint8Array.from([0, 1, 2, 3])
 
 var digest = sha256.digest(bytes)
