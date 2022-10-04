@@ -1,6 +1,6 @@
 {
   "name": "multihashes-sync",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Synchronous SHA256, SHA512 multihashes",
   "keywords": [
     "multiformats",
