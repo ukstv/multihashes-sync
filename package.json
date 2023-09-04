@@ -32,8 +32,8 @@
     "./sha2": {
       "import": {
         "browser": "./dist/sha2.browser.js",
-        "default": "./dist/sha2.js",
-        "types": "./dist/sha2.d.ts"
+        "types": "./dist/sha2.d.ts",
+        "default": "./dist/sha2.js"
       }
     }
   },
