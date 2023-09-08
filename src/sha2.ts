@@ -1,4 +1,4 @@
-import { createHash } from "crypto";
+import { createHash } from "node:crypto";
 import { SyncHasher } from "./sync-hasher.js";
 import { coerce } from "multiformats/bytes";
 
